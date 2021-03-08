@@ -1,0 +1,6 @@
+#!name=MagicJS
+#!desc=测试MagicJS在不同平台的变量操作功能
+
+[Script]
+MagicJS_测试用例 = type=cron,cronexp=0 2 * * *,timeout=120,wake-system=1,script-path=https://git.idreamtalk.com/root/MagicJS/raw/master/magic.js
+MagicJS_变量维护 = type=http-request,requires-body=1,max-size=0,pattern=^http:\/\/(www\.)?magic\.js\/value\/(write|read|del),script-path=https://git.idreamtalk.com/root/MagicJS/raw/master/magic.js

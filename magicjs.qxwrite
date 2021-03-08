@@ -1,0 +1,2 @@
+# MagicJS变量维护
+^http:\/\/(www\.)?magic\.js\/value\/(write|read|del) url script-echo-response https://git.idreamtalk.com/root/MagicJS/raw/master/magic.js

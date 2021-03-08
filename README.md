@@ -1,1 +1,3 @@
-# ptah
+# MagicJS
+
+MagicJS框架
